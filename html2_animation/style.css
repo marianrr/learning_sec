@@ -1,0 +1,24 @@
+*, html, body, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(208, 176, 237);
+}
+.anima {
+    position: relative;
+    top: 400px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+background-color:brown;
+transition: transform 1s ease-in 
+
+}
+
+.anima:hover {
+    transform: scale(3)
+}
